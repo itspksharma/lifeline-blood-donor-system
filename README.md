@@ -1,56 +1,90 @@
-# 🩸 LifeLine — Blood Donor Management System
+# 🩸 Lifeline — Blood Donor Management System
 
-LifeLine is a web-based Blood Donor Management System designed to connect blood donors with people in need.
+Lifeline is a web-based Blood Donor Management System designed to help people quickly find blood donors during medical emergencies.
 
-The platform helps users easily search for blood donors based on blood group and location while allowing donors to manage their availability.
+The platform aims to connect **blood donors and patients** through an easy-to-use digital system.
 
-This project is built as both a **real-world social utility platform** and a **full-stack development project**.
+This project is being developed as both a **real-world social utility platform** and a **full-stack development project**.
 
 ---
 
 # 🌐 Project Status
 
-Current Development Stage:
+Current development stage:
 
-* ✅ Public landing page completed
-* 🚧 User authentication system (in development)
-* 🚧 Admin panel (in development)
-* 🚧 Donor management system (in development)
+* ✅ Public Landing Page (Completed)
+* 🚧 User Authentication System (In Development)
+* 🚧 Donor Registration System (In Development)
+* 🚧 Admin Dashboard (In Development)
+* 🚧 Blood Request Management (Planned)
 
-The project is actively being rebuilt and improved.
+The system is actively being developed and new features will be added gradually.
 
 ---
 
 # 🚀 Features
 
-### 🌍 Public Landing Page
+## 🌍 Public Landing Page
 
-Visitors can learn about the platform and its purpose.
+The landing page is publicly accessible and introduces the purpose of the platform.
 
-### 🔐 User System (Upcoming)
+It includes:
 
-Users will be able to:
+* project introduction
+* system purpose
+* call-to-action for donor participation
+* navigation for future login and registration features
 
-* register as donors
-* update their availability status
-* search for blood donors
-* submit emergency blood requests
+The landing page is designed to spread awareness about blood donation and encourage people to participate.
 
-### 🧑‍💼 Admin Panel (Upcoming)
+---
 
-Admin will have full control over the platform:
+# 📷 Landing Page Preview
 
-* manage donors
-* approve or review data
-* view statistics
-* manage urgent requests
+Below is the current public landing page of the platform.
 
-### 🔍 Donor Search System
+![ Home ](blood-donor-client/public/home01.png)
+![Guidelines ](blood-donor-client/public/home02.png)
+![Group Compatibility ](blood-donor-client/public/home03.png)
+![ Stats ](blood-donor-client/public/stats.png)
 
-Users will be able to filter donors by:
+---
+
+# 🔐 User System (Upcoming)
+
+Registered users will be able to:
+
+* register as blood donors
+* update availability status
+* search for donors by blood group
+* submit blood requests
+* manage their donor profile
+
+---
+
+# 🧑‍💼 Admin System (Upcoming)
+
+Admin will have full control over the platform.
+
+Admin features will include:
+
+* donor management
+* user management
+* blood request monitoring
+* approval systems
+* platform analytics
+
+---
+
+# 🔍 Donor Search System
+
+Users will be able to filter donors based on:
 
 * blood group
 * location
+* availability status
+
+This will help patients quickly find suitable donors.
 
 ---
 
@@ -61,6 +95,7 @@ Frontend
 * HTML
 * CSS
 * JavaScript
+* React (client)
 
 Backend
 
@@ -78,22 +113,26 @@ Database
 ```
 lifeline-blood-donor-system
 │
-├── frontend
+├ client
+│   ├ public
+│   │   └ snaps
+│   │       └ landing-page.png
+│   │
+│   └ src
 │
-├── backend
+├ server
 │
-├── public
-│
-└── README.md
+├ LICENSE
+└ README.md
 ```
 
 ---
 
 # 🎯 Purpose of the Project
 
-The goal of this project is to create a platform that helps people quickly find blood donors during emergencies.
+The main goal of Lifeline is to create a platform where people can quickly find blood donors during emergencies.
 
-At the same time, the system serves as a **full-stack learning project focused on building scalable web applications**.
+The system also serves as a **learning project focused on building a scalable full-stack application**.
 
 ---
 
@@ -101,12 +140,12 @@ At the same time, the system serves as a **full-stack learning project focused o
 
 Planned improvements include:
 
-* complete user authentication system
-* donor availability management
-* admin dashboard
+* full user authentication system
+* donor availability tracking
+* admin management dashboard
 * emergency blood request system
-* notifications for donors
-* improved UI/UX
+* notification system for donors
+* improved UI and accessibility
 
 ---
 
@@ -115,15 +154,15 @@ Planned improvements include:
 Pawan Kumar Sharma
 Full Stack Developer
 
-Website
+🌐 Website
 https://www.askdevpk.me
 
-GitHub
+💻 GitHub
 https://github.com/itspksharma
 
 ---
 
-# 📄 License
+
 
 ## 📄 License
 
